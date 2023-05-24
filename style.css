@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Fira+Sans&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: #e7e5ec;
+}
+.sidebar{
+    background-color:rgb(177, 173, 173);
+    width: 250px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    position: absolute;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 88vw;
+    padding: 23px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 195px;
+}
+.sidebarGo{
+    transform: translate(-380px, 0px);
+    position: absolute;
+}
+
+.inforcontainer{
+    /* background-color: green; */
+    height: 58vh;
+    width: 80vw;
+    margin: 178px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.hello{
+    font-size: 3.2em;
+}
+.name{
+    font-size: 3.7em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.About{
+font-family: 'Roboto', sans-serif;
+font-size: 2.5em;
+}
+.button button{
+    margin: 15px 5px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgb(149 103 159);
+    color: white;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(252 252 252);
+    color: rgb(122, 9, 242);
+}
+
+.devpic img{
+    height: 58vh;
+}
+.footerinformation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.7rem;
+    background-color: rgb(200, 204, 242);
+}
+.footerfirst{
+    display: flex;
+    padding-left: 24px;
+}
+.footersecond{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footerfirst img{
+    height: 3.1em;
+    width: 3.1rem;
+    border-radius: 3rem;
+    background-color: #c992db;
+    border-width: 3px solid black;
+}
+.footer{
+    margin: 10px 15px;
+    font-size: 1.5em;
+    font-family: 'Varela Round', sans-serif;
+}
+.social a img{
+    margin: 5px 5px;
+}
+
+@media(max-width:800px) {
+
+    /* *{
+        background-color: rgb(184, 158, 209);
+    } */
+    /*.sidebar{
+        transform: translate(-380px, 0px);
+        position: absolute;
+    } */
+    .devpic img{
+        max-width: 400px;
+        height: 36vh;
+    }
+    .Contactform{
+        max-width: 500px;
+        padding: 13px 16px;
+        padding-top: 92px;
+        margin-right: 10px;
+    }
+    .skillsmain{
+        flex-wrap: wrap;
+    }
+    .contactinfocontainer{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media(max-width:500px) {
+
+    /* *{
+        background-color: rgb(184, 158, 209);
+    } */
+    /*.sidebar{
+        transform: translate(-380px, 0px);
+        position: absolute;
+    } */
+    .devpic img{
+        max-width: 400px;
+        height: 27vh;
+    }
+    .footer{
+        font-size: 0.6em;
+    }
+    
+}
+

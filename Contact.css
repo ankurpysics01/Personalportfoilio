@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Fira+Sans&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color:rgb(205, 183, 183);
+    width: 380px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.Contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 133px;
+    padding-top: 144px;
+    margin-left: 30px;
+
+}
+.Contactform h1{
+    font-family: 'Varela Round', sans-serif;
+    /* text-align: center; */
+}
+.Contactform div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactinfocontainer{
+    display: flex;
+    align-items: center;
+}
+.contactinfocontainer h1{
+    font-family: 'Varela Round', sans-serif;
+}
+.socialmediainformation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 155px;
+}
+.one{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 10em);
+    grid-template-columns: repeat(2, 10em);
+    /* border: 2px solid black; */
+}
+.socials{
+    display: flex;
+    margin: auto;
+    border: 2px solid rgb(156, 174, 224);
+    
+    border-radius: 25px;
+}
+.socials a img{
+    height: 6.3rem;
+    width: 6.3rem;
+    margin: 20px;
+}
+#ClaientName{
+    width: 281px;
+    height: 20px;
+    border-radius: 5px; 
+}
+#enquiry{
+    width: 281px;
+    height: 20px;
+    border-radius: 5px; 
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(65, 65, 206);
+}
+#Clientemail{
+    width: 281px;
+    height: 20px;
+    border-radius: 5px;
+}
+#ClaientPhone{
+    width: 142px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.form-check-input{
+    width: 1vw;
+}
+.btn-sm{
+    padding: 4px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(72, 72, 151);
+}
+.btn:hover{
+    font-weight: bolder;
+    color: rgb(72, 72, 151);
+    background-color:white;
+}

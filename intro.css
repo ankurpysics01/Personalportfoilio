@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Fira+Sans&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color:rgb(205, 183, 183);
+    width: 380px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.introinformation{
+    margin-left: 25px;
+}
+.about{
+    margin: 31px 50px;
+}
+.about h1{
+    margin: 16px 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.about p{
+    font-family: 'Fira Sans', sans-serif;
+}
+.about h2{
+    margin: 16px 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.skillsmain{
+    display: flex;
+}
+.projectcollection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.projectcollection h2{
+    text-decoration: underline;
+}
+.skills{
+    width: 269px;
+    height: 6px;
+    background-color: rgb(88, 88, 238);
+    margin: 8px 0;
+    font-weight: bolder;
+}
+.h100{
+    width: 300px;
+}
+.h80{
+    width: 230px;
+}
+.h75{
+    width: 200px;
+}
+.h70{
+    width: 180px;
+}
+.button{
+    width: 100%;
+    align-items: center;
+}
+.button button{
+    margin: 15px 5px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgb(149 103 159);
+    color: white;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(252 252 252);
+    color: rgb(122, 9, 242);
+}
